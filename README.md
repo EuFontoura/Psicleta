@@ -1,4 +1,4 @@
-<h1 align="center">Psicleta</h1>
+<h1 align="center">Projeto Psicleta</h1>
 
 Tabela de conteúdos
 =================
@@ -19,7 +19,7 @@ Tabela de conteúdos
 
 ## Status
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Em construção...  🚧
 </h4>
 
  ## Tecnologias
