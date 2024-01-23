@@ -59,3 +59,14 @@ $ npm run dev
 ## Licença
  
   Este projeto está licenciado com a licença [MIT](https://github.com/fernandolimma/Challenge-Codi-Quiz/blob/main/LICENSE).
+
+## Autor
+---
+<img style="border-radius:50%;" src="https://avatars.githubusercontent.com/u/88143537?v=4" width="100px;" alt=""/>
+<br />
+<h3><sub><b>Gabriel Fontoura</b></sub></h3>
+
+Feito com ❤️ por Gabriel Fontoura 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-fontoura/)](https://www.linkedin.com/in/gabriel-fontoura/) 
+[![Gmail Badge](https://img.shields.io/badge/-gabrielFMendonca@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabrielFMmendonca@gmail.com)](mailto:gabrielFMendonca@gmail.com)
