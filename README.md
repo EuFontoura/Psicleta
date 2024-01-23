@@ -6,8 +6,9 @@ Tabela de conteúdos
  <a href="#sobre">Sobre</a> •
  <a href="#status">Status</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#-como-rodar-projeto">Como rodar projeto</a> • 
- <a href="#-licença">Licença</a> • 
+ <a href="#pre-requisitos">Pré-requisitos</a> • 
+ <a href="#como-rodar-projeto">Como rodar projeto</a> • 
+ <a href="#licença">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
 
