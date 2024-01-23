@@ -1,32 +1,55 @@
 <h1 align="center">Psicleta</h1>
 
-## Descrição do Projeto
-Inicialmente o projeto fora criado apenas para fixar e aprender mais sobre React e TailwindCss, porém, ao longo de sua construção, foi feita uma parceria com um grupo de psicólogos para que sirva como divulgação para um projeto do qual torna a terapia acessível para todos.
-
-## Tabela de Conteúdos
-- [Sobre](#sobre)
-- [Status](#status)
-- [Tecnologias](#tecnologias)
-- [Pré-requisitos](#pre-requisitos)
-- [Licença](#licenca)
-- [Autor](#autor)
+Tabela de conteúdos
+=================
+<p align="center">
+ <a href="#sobre">Sobre</a> •
+ <a href="#status">Status</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#-como-rodar-projeto">Como rodar projeto</a> • 
+ <a href="#-licença">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
 ## Sobre
-<p align="center">...</p>
+<p align="center">Inicialmente o projeto fora criado apenas para fixar e aprender mais sobre React e TailwindCss, porém, ao longo de sua construção, foi feita uma parceria com um grupo de psicólogos para que sirva como divulgação para um projeto do qual torna a terapia acessível para todos.</p>
 
 ## Status
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
 
-## Tecnologias
-<p align="center">...</p>
+ ## Tecnologias
+  
+    Abaixo as tecnologias que utilizei para o desenvolvimento do projeto:
+
+    1 - Javascript
+    2 - HTML
+    3 - CSS
+    4 - React
+    5 - TailwindCss
+  </p>
 
 ## Pré-requisitos
-<p align="center">...</p>
 
-## Licença
-<p align="center">...</p>
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Autor
-<p align="center">...</p>
+## Como rodar projeto
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/EuFontoura/Psicleta.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd psicleta
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+```
