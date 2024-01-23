@@ -58,11 +58,11 @@ $ npm run dev
 
 ## Licença
  
-  Este projeto está licenciado com a licença [MIT](https://github.com/fernandolimma/Challenge-Codi-Quiz/blob/main/LICENSE).
+  Este projeto está licenciado com a licença [MIT](https://github.com/EuFontoura/Psicleta?tab=MIT-1-ov-file).
 
 ## Autor
 ---
-<img style="border-radius:50%;" src="https://avatars.githubusercontent.com/u/88143537?v=4" width="100px;" alt=""/>
+<img src="https://avatars.githubusercontent.com/u/88143537?v=4" width="100px;" alt="" style="border-radius:50%;"/>
 <br />
 <h3><sub><b>Gabriel Fontoura</b></sub></h3>
 
