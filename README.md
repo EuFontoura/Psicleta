@@ -6,11 +6,13 @@ Tabela de conteúdos
  <a href="#sobre">Sobre</a> •
  <a href="#status">Status</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#pre-requisitos">Pré-requisitos</a> • 
  <a href="#como-rodar-projeto">Como rodar projeto</a> • 
  <a href="#licença">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
+ <p align="center">
+    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000" />
+  </p>
 
 ## Sobre
 <p align="center">Inicialmente o projeto fora criado apenas para fixar e aprender mais sobre React e TailwindCss, porém, ao longo de sua construção, foi feita uma parceria com um grupo de psicólogos para que sirva como divulgação para um projeto do qual torna a terapia acessível para todos.</p>
@@ -31,13 +33,12 @@ Tabela de conteúdos
     5 - TailwindCss
   </p>
 
-## Pré-requisitos
+## Como rodar projeto
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Como rodar projeto
 
 ```bash
 # Clone este repositório
@@ -54,3 +55,7 @@ $ npm run dev
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
+
+## Licença
+ 
+  Este projeto está licenciado com a licença [MIT](https://github.com/fernandolimma/Challenge-Codi-Quiz/blob/main/LICENSE).
