@@ -1,4 +1,9 @@
 .text-shadow {
     text-shadow: 2px 2px 4px rgba(15, 45, 74, 0.5);
   }
-  
+/*body {
+  background-image: url('./img/bg.png'); /* Substitua pelo caminho real da sua imagem de fundo 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/

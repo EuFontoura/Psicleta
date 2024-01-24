@@ -1,34 +1,40 @@
 import './App.css';
-import froid from './img/froid.png';
+import psicleta from './img/Psicleta.jpg';
 
 export default function App() {
   return (
     <div className="grid grid-cols-2 mx-20">
-      <div className="col-span-1 m-3 text-2xl p-9 font-grape-nuts text-black-300 flex flex-col items-center justify-center">
+      <div className="col-span-1 m-3 text-2xl p-9 font-grape-nuts flex flex-col items-center justify-center text-stone-300">
         <p className="text-6xl mb-16 font-semibold text-shadow text-stone-50">Terapia On-line</p>
-        <p>Bem-vindo ao Projeto Psiciência! Estamos comprometidos em promover a saúde mental e o 
-          bem-estar emocional, oferecendo apoio psicológico à comunidade. Em Psiciência, acreditamos 
-          que a ciência da mente pode iluminar caminhos para uma vida mais equilibrada e significativa.</p>
-        <p className="m-6 font-semibold font-poppins">Missão:</p>
-        <p>Nossa missão é proporcionar um ambiente acolhedor e inclusivo, 
-          onde a psicologia se encontra com a compaixão. Buscamos criar 
-          oportunidades para que todos possam acessar recursos psicológicos 
-          e desenvolver habilidades para enfrentar os desafios da vida.</p>
-        <p className='my-10 font-semibold'>É preciso ressignificar situações que lhe trazem dor, e quebrar ciclos repetitivos.</p>
+        <p className='m-3'>Venha conhecer e participar do projeto PsiCLETA! Um programa que tem como objetivo 
+        facilitar o acesso ao serviço de psicologia para a comunidade, disponibilizando 
+        atendimentos a preços sociais.</p>
+        <p className='m-3'>A terapia é uma ferramenta poderosa e transformadora, capaz de promover o equilíbrio 
+        emocional, melhorar os relacionamentos interpessoais e auxiliar na resolução de problemas 
+        diversos. Com a correria do dia a dia e os desafios que enfrentamos, muitas vezes nos vemos 
+        sem espaço para cuidar de nós mesmos. O projeto PsiCLETA busca mudar essa realidade, disponibilizando 
+        atendimentos acessíveis a todos que desejam investir na própria saúde mental.</p>
+
+        <p className='m-3'>Se você se interessou em participar do projeto PsiCLETA, basta preencher nosso formulário 
+        de interesse, disponível no link abaixo. Estamos abertos para receber todas as pessoas que 
+        desejam investir em sua saúde mental e emocional.</p>
         <a href="#" className='underline text-center block hover:text-stone-50'>Conheça nossa equipe!</a>
 
         <p className='italic mt-10'>Para as coisas mudarem, você precisa falar sobre elas!</p>
-        <button className='rounded-xl w-80 h-10 
-                        bg-cyan-400
-                        hover:bg-cyan-100 hover:scale-110 
-                        transition-transform 
-                        font-dm-sans font-bold 
-                        text-xl text-white
-                        mx-auto mt-6'>Agendar Sessão</button>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLScUvO28l6hyaI73-Ju_VVcTtgec1gmG2iwbjOo2XOG2Zjmilw/viewform?usp=sf_link'>
+  <button className='rounded-xl w-80 h-10 
+                  bg-green1
+                  hover:bg-cyan-100 hover:scale-110 hover:text-black
+                  transition-transform 
+                  font-dm-sans font-bold 
+                  text-xl text-white
+                  mx-auto mt-6'>
+    Agendar Sessão
+  </button>
+</a>
       </div>
     <div className="col-span-1">
-      <img src={froid} alt="" className='m-10 ml-40 h-100 w-100'/>
-
+      <img src={psicleta} alt="psicleta" className='m-10 ml-20 h-100 w-100'/>
     </div>
     </div>
   );
