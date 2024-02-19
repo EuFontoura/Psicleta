@@ -3,8 +3,8 @@ import psicleta from '../img/Psicleta.jpg';
 
 const textContainer = () => {
   return (
-    <div  id='sobre' className="grid grid-cols-2 mx-20">
-      <div className="col-span-1 m-3 text-2xl p-9 font-grape-nuts flex flex-col items-center justify-center ">
+    <div  id='sobre' className="grid md:grid-cols-2 mx-20">
+      <div className="md:col-span-1 m-3 text-2xl p-9 font-grape-nuts flex flex-col items-center justify-center ">
         <p className="text-6xl mb-16 font-semibold text-shadow ">Terapia On-line</p>
         <p className='m-3'>Venha conhecer e participar do projeto PsiCLETA! Um programa que tem como objetivo 
         facilitar o acesso ao serviço de psicologia para a comunidade, disponibilizando 
@@ -34,7 +34,7 @@ const textContainer = () => {
 </a>
       </div>
     <div className="col-span-1">
-      <img src={psicleta} alt="psicleta" className='m-10 ml-20 h-100 w-100'/>
+      <img src={psicleta} alt="psicleta" className='m-10 ml-20 h-100 w-100 hidden md:block'/>
     </div>
     </div>
   )
