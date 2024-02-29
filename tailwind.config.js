@@ -15,10 +15,14 @@ export default {
         'custom': '5px 2px 3px black'
       },
       colors: {
-        padrao: '#5F7C60',
+        hover: '#18D760',
+        mainColor: '#5F7C60',
         green1: '#219625',
         green2: '#60866B',
       },
+      margin: {
+        300: '300px',
+      }
     },
   },
   plugins: [],

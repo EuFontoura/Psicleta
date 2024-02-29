@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import psicleta from '../img/Psicleta.jpg';
 
-const textContainer = () => {
+const TextContainer = () => {
   return (
-    <div  id='sobre' className="grid md:grid-cols-2 mx-20">
-      <div className="md:col-span-1 m-3 text-2xl p-9 font-grape-nuts flex flex-col items-center justify-center ">
-        <p className="text-6xl mb-16 font-semibold text-shadow ">Terapia On-line</p>
+    <div id='sobre' className="grid md:grid-cols-2 md:mx-20 md:mt-28 mt-20">
+      <div className="col-span-2 md:col-span-1 m-3 text-2xl p-9 font-grape-nuts flex flex-col items-center justify-center">
+        <p className="text-6xl mb-16 font-semibold text-shadow">Terapia On-line</p>
         <p className='m-3'>Venha conhecer e participar do projeto PsiCLETA! Um programa que tem como objetivo 
         facilitar o acesso ao serviço de psicologia para a comunidade, disponibilizando 
         atendimentos a preços sociais.</p>
@@ -22,22 +22,22 @@ const textContainer = () => {
 
         <p className='italic mt-10'>Para as coisas mudarem, você precisa falar sobre elas!</p>
         <a href='https://docs.google.com/forms/d/e/1FAIpQLScUvO28l6hyaI73-Ju_VVcTtgec1gmG2iwbjOo2XOG2Zjmilw/viewform?usp=sf_link'>
-  <button className='rounded-xl w-80 h-10 
+          <button className='rounded-xl w-80 h-10 
                   bg-green1
                   hover:bg-cyan-100 hover:scale-110 hover:text-black
                   transition-transform 
                   font-dm-sans font-bold 
                   text-xl text-white
                   mx-auto mt-6'>
-    Agendar Sessão
-  </button>
-</a>
+            Agendar Sessão
+          </button>
+        </a>
       </div>
-    <div className="col-span-1">
-      <img src={psicleta} alt="psicleta" className='m-10 ml-20 h-100 w-100 hidden md:block'/>
-    </div>
+      <div className="md:col-span-1">
+        <img src={psicleta} alt="psicleta" className='m-10 ml-20 h-100 w-100 hidden md:block'/>
+      </div>
     </div>
   )
 }
 
-export default textContainer;
+export default TextContainer;

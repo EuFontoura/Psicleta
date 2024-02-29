@@ -59,7 +59,7 @@ const ReasonsContainer = () => {
 
   return (
     <div ref={containerRef} className='mx-20 my-10'>
-      <h1 className='text-4xl font-bold mb-6 text-center underline'>Como posso te ajudar</h1>
+      <h1 className='text-4xl font-bold mb-12 text-center underline'>Como posso te ajudar</h1>
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 10 }} transition={{ duration: 1 }}>
         <div className='grid md:grid-cols-3 gap-10'>
           {reasons.map((reason, index) => (

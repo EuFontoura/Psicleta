@@ -1,57 +1,34 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../img/logo.jpg';
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
-
+import logo from '../img/logo.png';
 import '../App.css';
+import  'boxicons'
 
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  const handleScroll = () => {
-    const offset = window.scrollY;
-    setScrolled(offset > 100);
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
-    <div className='flex flex-col items-start mx-20'>
-      <div className='flex items-center justify-between w-full'>
-        <img src={logo} alt="logo_psicleta" className='m-3 h-13 w-40 cursor-pointer'/>
-
-        <div className={`flex items-center ${scrolled ? 'hidden' : ''}`}>
-          <FaWhatsapp className='text-3xl text-green1 cursor-pointer hover:text-cyan-300 mt-6 mr-4 hover:text-4xl'/>
-          <FaInstagram className='text-3xl text-green1 cursor-pointer hover:text-cyan-300 mt-6 mr-4 hover:text-4xl'/>
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLScUvO28l6hyaI73-Ju_VVcTtgec1gmG2iwbjOo2XOG2Zjmilw/viewform?usp=sf_link'>
-          <button className='rounded-xl w-80 h-10 bg-green1 hover:bg-cyan-100 hover:scale-105 hover:text-black transition-transform font-dm-sans font-bold text-xl text-white mx-auto mt-6 shadow-custom'>
-              Agendar Sessão
-            </button>
-          </a>
+    <div className='flex flex-col items-start'>
+      <div className='flex items-center md:justify-normal justify-between w-full fixed bg-mainColor border-b-2 border-black md:border-none z-50'>
+        <div className='md:hidden'><box-icon name='menu' size='lg'></box-icon></div>
+        <img src={logo} alt="logo_psicleta" className='mr-10 mt-6 mb-6 h-20 w-20 md:h-13 md:w-20 cursor-pointer flex md:mx-32'/>
+        <div className="hidden md:block ">
+          <ul className="flex justify-between text-stone-300 text-2xl font-dm-sans font-bold border-b-2 border-green1 ml-300 w-full">
+            <li className='hover:text-hover hover:scale-110 transition-transform cursor-pointer'>
+              <a href="#sobre">Sobre</a>
+            </li>
+            <li className='hover:text-hover hover:scale-110 transition-transform cursor-pointer'>
+              <a href="#porquefazer">Por que fazer</a>
+            </li>
+            <li className='hover:text-hover hover:scale-110 transition-transform cursor-pointer'>
+              <a href="#">Profissionais</a>
+            </li>
+            <li className='hover:text-hover hover:scale-110 transition-transform cursor-pointer'>
+              <a href="#">Avaliações</a>
+            </li>
+            <li className='hover:text-hover hover:scale-110 transition-transform cursor-pointer'>
+              <a href="#">Contato</a>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div className="mx-auto hidden md:block ">
-        <ul className="grid grid-cols-1 md:grid-cols-5 text-stone-300 gap-7 text-2xl text-center m-8 font-dm-sans font-bold border-b-2 border-green1">
-          <li className='hover:text-white hover:scale-110 transition-transform cursor-pointer'>
-            <a href="#sobre">Sobre</a>
-          </li>
-          <li className='hover:text-white hover:scale-110 transition-transform cursor-pointer'>
-            <a href="#porquefazer">Por que fazer</a>
-          </li>
-          <li className='hover:text-white hover:scale-110 transition-transform cursor-pointer'>
-            <a href="#">Profissionais</a>
-          </li>
-          <li className='hover:text-white hover:scale-110 transition-transform cursor-pointer'>
-            <a href="#">Avaliações</a>
-          </li>
-          <li className='hover:text-white hover:scale-110 transition-transform cursor-pointer'>
-            <a href="#">Contato</a>
-          </li>
-        </ul>
       </div>
     </div>
   );
